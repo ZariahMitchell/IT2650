@@ -17,11 +17,11 @@ class Lesson_10_Activity
 
   int numberCandybars = numberCouponsWin / candybar; // number of candtbars yoou can get
 
-  int remainingCoupons = numberCouponsWin % candybar; // 
+  int remainingCoupons = numberCouponsWin % candybar; 
   
   int numberGumballs = remainingCoupons / gumball; // number of gumballs you can get
 
-  remainingCoupons = remainingCoupons % gumball;
+  remainingCoupons = remainingCoupons % gumball; // number of remaining coupons
 
   System.out.println("Number of coupons: " + numberCouponsWin);
   System.out.println("Number of candy bars you can get: " + numberCandybars);
