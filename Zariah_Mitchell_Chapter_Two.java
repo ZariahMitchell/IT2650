@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Gass
+class Gas
 {
 
  public static void main(String[] args) 
