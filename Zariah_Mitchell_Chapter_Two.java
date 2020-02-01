@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Lesson_10_Activity
+class Gass
 {
 
  public static void main(String[] args) 
