@@ -8,10 +8,7 @@ public class DiscountSale extends Sale
         discount = 0;
     }
 
-    /**
-     Precondition: theName is a nonempty string; thePrice is nonnegative;
-     theDiscount is expressed as a percent of the price and is nonnegative.
-    */
+    
     public DiscountSale(String theName,
                                   double thePrice, double theDiscount)
     {
@@ -41,9 +38,7 @@ public class DiscountSale extends Sale
         return discount;
     }
 
-    /**
-     Precondition: Discount is nonnegative.
-    */
+    
     public void setDiscount(double newDiscount)
     {
         if (newDiscount >= 0)
